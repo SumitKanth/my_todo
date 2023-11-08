@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #c0e1ec;
+}
+
+
+.header{
+    height: 20vh;
+    text-align: center;
+}
+
+.header p{
+    text-align: center;
+    margin: 5vh 0;
+    background-color: #3fa8cb;
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 30px;
+    display: inline-block;
+    width: 13vw;
+    letter-spacing: 1px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+}
+
+
+.all_content{
+    text-align: center;
+}
+
+.todo_input input{
+    margin: 12px 0;
+    padding: 10px 15px;
+    border: 2px solid #808080;
+    border-radius: 50px;
+}
+
+.todo_input button{
+    padding: 10px 40px;
+    background: none;
+    background-color: #3fa8cb;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 30vw;
+    margin-left: 35vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 25px;
+}
+
+
+.todo_content{
+    margin: 10px 0;
+    background-color: #60bcdb;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    padding: 12px 0;
+}
+
+.delete_btn{
+    text-align: center;
+    display: none;
+}
+
+.delete_btn button{
+    padding: 10px 24px;
+    margin: 14px 0;
+    background: none;
+    background-color: #3fa8cb;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 1340px){
+    .header p{
+        width: 18vw;
+    }
+
+    .container{
+        width: 48vw;
+        margin-left: 24vw;
+    }
+}
+
+
+@media (max-width: 1070px){
+    .header p{
+        width: 22vw;
+    }
+
+    .container{
+        width: 48vw;
+        margin-left: 25vw;
+    }
+}
+
+@media (max-width: 850px){
+    .header p{
+        width: 32vw;
+    }
+
+    .container{
+        width: 48vw;
+        margin-left: 25vw;
+    }
+}
+
+@media (max-width: 531px){
+    .header p{
+        width: 60vw;
+    }
+
+    .container{
+        width: 48vw;
+        margin-left: 20vw;
+    }
+}
+
+@media (max-width: 300px){
+    .header p{
+        width: 60vw;
+    }
+
+    .container{
+        width: 58vw;
+        margin-left: 13vw;
+    }
+}
