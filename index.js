@@ -2,9 +2,6 @@ let todoParent = document.getElementById("todoParent");
 let input = document.getElementById("todoText");
 let del_btn = document.getElementById("del_btn");
 
-let arr = [];
-localStorage.setItem("todo", JSON.stringify(arr));
-
 const add = () => {
     let arr_ = JSON.parse(localStorage.getItem("todo"));
     if(input.value == "") {
