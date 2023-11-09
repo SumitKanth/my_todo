@@ -12,7 +12,9 @@
     </div>
 
     <div class="all_content">
-        <span class="todo_input"> <input type="text" placeholder="Enter todo" id="todoText"> <button onclick="add()">Add</button> </span>
+        <span class="todo_input"> <input type="text" placeholder="Enter todo" id="todoText"> 
+            <button id="add_btn" onclick="add()">Add</button> <button id="edit_btn" onclick="edit()">Edit</button> 
+        </span>
         
         <div class="container" id="todoParent">
     
@@ -20,7 +22,6 @@
     </div>
     
     
-
     <div class="delete_btn" id="del_btn">
         <button onclick="delete_btn()">Delete All</button>
     </div>
